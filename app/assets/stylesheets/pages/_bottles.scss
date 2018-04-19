@@ -1,0 +1,82 @@
+.card-wrapper {
+  margin: 15px 0px;
+  border: solid 1px #F4F4F4;
+  box-shadow: 1px 1px 3px #5a4e4e;
+  border-radius: 5px;
+  background-color: white;
+}
+.card-bootle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px #F4F4F4;
+  box-shadow: 1px 1px 3px #5a4e4e;
+  padding: 0px 15px;
+  margin: 10px 10px;
+  background-color: white;
+}
+.card-bottle-left,
+.card-bottle-right {
+  display: flex;
+  align-items: center;
+}
+.bottle-sticker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: image-url('template.jpg');
+  background-size: cover;
+  height: 90px;
+  width: 120px;
+  margin-right: 20px;
+}
+.bottle-names-subnames {
+  display: flex;
+}
+h3 {
+  margin-top: 0px !important;
+}
+.bottle-names-subnames-producer {
+  margin-right: 15px;
+}
+.bottle-volume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+.bottle-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+.card-price {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-bottle-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-bottle-details-info h3 {
+  font-size: 14px !important;
+}
+.card-bottle-details-info {
+  width: 250px;
+  padding-left: 20px;
+}
+.card-image-sticker {
+  background-image: image-url('template.jpg');
+  background-size: cover;
+  height: 270px;
+  width: 360px;
+  margin: 15px 25px;
+}
+.card-bottle-description {
+  width: 400px;
+}

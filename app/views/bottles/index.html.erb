@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="container-title text-center">
+    <h1>Bottles' list</h1>
+  </div>
+  <div class="container-content">
+    <div class="filter">
+    </div>
+    <div class="bottles-list-item">
+      <div class="card-bottle-wrapper">
+        <% @bottles.each do |bottle| %>
+          <div class="card-bootle">
+            <div class="card-bottle-left">
+              <div class="bottle-sticker">
+                <%= bottle.sticker %>
+              </div>
+              <div class="bottle-names">
+                <div class="bottle-names-subnames">
+                  <div class="bottle-names-subnames-producer">
+                    <h2><%= bottle.producer %></h2>
+                  </div>
+                  <div class="bottle-names-subnames-millesime">
+                    <h2><%= bottle.millesime %></h2>
+                  </div>
+                </div>
+                <h3><%= bottle.appelation %></h3>
+              </div>
+            </div>
+            <div class="card-bottle-right">
+              <div class="bottle-volume">
+               <h4><%= bottle.volume %></h4>
+              </div>
+              <div class="bottle-price">
+                <h1><%= bottle.price %>.- €</h1>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+

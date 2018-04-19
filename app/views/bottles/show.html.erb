@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="card-wrapper">
+    <div class="card-bottle">
+      <div class="card-bottle-title text-center">
+        <h1><%= @bottle.producer %> <%= @bottle.millesime %></h1>
+        <h2><%= @bottle.appelation %></h2><hr>
+      </div>
+      <div class="card-bottle-details">
+        <div class="card-bottle-details-info">
+          <h3><%= @bottle.category.name %></h3>
+          <h3>Origin: <%= @bottle.origin %></h3>
+          <h3>Region: <%= @bottle.region %></h3>
+          <h3>Alcohol: <%= @bottle.degree %>°</h3>
+          <h3>Volume: <%= @bottle.volume %></h3>
+        </div>
+        <div class="card-image-sticker">
+          <%= @bottle.sticker %>
+        </div>
+        <div class="card-price">
+          <h2><%= @bottle.price %>.- €</h2><h4>TTC</h4>
+        </div>
+      </div>
+      <div class="card-bottle-description text-center">
+        <p><%= @bottle.description %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
