@@ -6,7 +6,7 @@ class BottlesController < ApplicationController
 
   def show
     @bottle = Bottle.find(params[:id])
-    @category = Category.new
+    @category = Category.find(params[:id])
   end
 
   private
