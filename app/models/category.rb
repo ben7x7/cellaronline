@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-  has_many :bottles, dependent: :destroy
+  has_many :bottles
 end
